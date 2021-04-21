@@ -1,0 +1,79 @@
+{
+  "id": 0,
+  "name": "Issues",
+  "type": "Feature Layer",
+  "displayField": "id",
+  "description": "",
+  "copyrightText": "",
+  "subtypeField": "",
+  "defaultSubtypeCode": 0,
+  "defaultVisibility": true,
+  "parentLayer": null,
+  "minScale": 0,
+  "maxScale": 0,
+  "hasAttachments": false,
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "objectIdField": "id",
+  "globalIdField": "",
+  "typeIdField": "req_type",
+  "fields": [
+    {
+      "name": "ObjectID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID",
+      "editable": false,
+      "nullable": true,
+      "domain": null,
+      "defaultValue": null,
+      "modelName": "OBJECTID"
+    },
+    {
+      "name": "url",
+      "type": "esriFieldTypeString",
+      "alias": "URL",
+      "editable": true,
+      "nullable": true,
+      "domain": null,
+      "defaultValue": null,
+      "modelName": "URL"
+    },
+    {
+      "name": "user",
+      "type": "esriFieldTypeString",
+      "alias": "USER",
+      "editable": true,
+      "nullable": true,
+      "domain": null,
+      "defaultValue": null,
+      "modelName": "USER"
+    },
+    {
+      "name": "labels",
+      "type": "esriFieldTypeString",
+      "alias": "LABELS",
+      "editable": true,
+      "nullable": true,
+      "domain": null,
+      "defaultValue": null,
+      "modelName": "LABELS"
+    },
+    {
+      "name": "assignees",
+      "type": "esriFieldTypeString",
+      "alias": "ASSIGNEES",
+      "editable": true,
+      "nullable": true,
+      "domain": null,
+      "defaultValue": null,
+      "modelName": "ASSIGNEES"
+    }
+  ],
+  "templates": [
+
+  ],
+  "maxRecordCount" : 100,
+  "maxRecordCountFactor" : 1,
+  "hasMetadata": false,
+  "supportedQueryFormats": "JSON",
+  "capabilities": "Query"
+}

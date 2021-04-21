@@ -1,2 +1,3 @@
 src/config.ts
+src/cert/
 node_modules/
